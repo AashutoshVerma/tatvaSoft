@@ -2,13 +2,20 @@ import React,{Component} from "react";
 import Title from "../component/Title";
 
 class Home extends Component{
+    constructor(){
+        super()
+        this.state ={
+            title : "This is Title ",
+            description : "This is Description"
+
+        }
+    }
     render(){
         return(
             
             <div>
-                <Title index = "1" title = "TatvaSoft industrial Project" />
-                <Title index = "2" title = "ReactJs Course by TatvaSoft" />
-                <Title index = "3" title = "Sem 6th Industrial Project by TatvaSoft" />
+                <Title index = "1" title = {this.state.title} />
+                <Title index = "2" title = {this.state.description} />
             </div>
         )
     }
