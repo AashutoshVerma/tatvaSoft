@@ -7,16 +7,14 @@ class Home extends Component{
         this.state ={
             title : "This is Title ",
             description : "This is Description"
-
         }
     }
     render(){
         return(
-            
             <div>
                 <Title index = "1" title = {this.state.title} />
                 <Title index = "2" title = {this.state.description} />
-            </div>
+            </div>  
         )
     }
 }
