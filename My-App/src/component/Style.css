@@ -1,0 +1,18 @@
+.titleContainer {
+  border: 2px solid cyan;
+  border-radius: 15px;
+  color: cyan;
+}
+
+.titleContainer:hover {
+  background-color: cyan;
+  color: #282c34;
+}
+
+.title:hover {
+  color: #282c34;
+}
+
+.description {
+  color: 282c34;
+}

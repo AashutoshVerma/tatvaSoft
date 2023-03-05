@@ -15,10 +15,10 @@ class Counter extends Component {
 
   render() {
     return (
-      <div>
+      <>
         <h1> Counter : {this.state.number}</h1>
         <button onClick={this.Inc}> Click Me </button>
-      </div>
+      </>
     );
   }
 }

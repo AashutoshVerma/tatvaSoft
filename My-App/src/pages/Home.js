@@ -14,7 +14,7 @@ class Home extends Component {
   }
   render() {
     return (
-      <div>
+      <>
         {this.state.clicked ? (
           <App />
         ) : (
@@ -36,7 +36,7 @@ class Home extends Component {
             </button>
           </div>
         )}
-      </div>
+      </>
     );
   }
 }
