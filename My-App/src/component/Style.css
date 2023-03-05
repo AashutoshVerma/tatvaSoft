@@ -16,3 +16,37 @@
 .description {
   color: 282c34;
 }
+
+.sampleForm {
+  border: 2px solid cyan;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  border: 2px solid cyan;
+  border-radius: 8px;
+  box-shadow: rgba(60, 215, 226, 0.5) 0px 5px 15px;
+}
+
+.passDiv input,
+.emailDiv input,
+.usernameDiv input {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid cyan;
+  border-radius: 8px;
+  font-size: 25px;
+}
+
+.submitButton {
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid cyan;
+  border-radius: 8px;
+  font-size: 25px;
+}
