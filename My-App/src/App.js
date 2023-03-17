@@ -8,21 +8,18 @@ import { click } from "@testing-library/user-event/dist/click";
 import About from "./pages/About";
 import List from "./component/List";
 import SampleForm from "./component/SampleForm";
+import CompFocus from "./component/CompFocus";
 
 class App extends Component {
   constructor() {
     super();
-
-    this.state = {
-      clicked: false,
-    };
   }
 
   render() {
     return (
       <div className="App">
         <div className="App-header">
-          <SampleForm />
+          <CompFocus />
         </div>
       </div>
     );
