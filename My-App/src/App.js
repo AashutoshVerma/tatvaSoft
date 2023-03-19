@@ -11,36 +11,18 @@ import SampleForm from "./component/SampleForm";
 import CompFocus from "./component/CompFocus";
 import UserList from "./component/UserList";
 import HOC from "./component/HOC";
-
-const UserData = [
-  {
-    id: 1,
-    name: "Aashutosh",
-  },
-  {
-    id: 2,
-    name: "Uttam",
-  },
-  {
-    id: 3,
-    name: "Divyesh",
-  },
-  {
-    id: 4,
-    name: "Chatur",
-  },
-];
-
-const Users = HOC(UserList, { users: UserData });
+import RenderPropsComponent from "./component/RenderPropsComponent";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div className="App-header">
-          {/* <CompFocus /> */}
-          <h1> List of Users</h1>
-          <Users />
+          <RenderPropsComponent
+            render={() => {
+              return <h3>Hello I am coming from Rendered Props.</h3>;
+            }}
+          />
         </div>
       </div>
     );
