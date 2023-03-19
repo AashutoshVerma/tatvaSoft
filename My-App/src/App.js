@@ -9,17 +9,38 @@ import About from "./pages/About";
 import List from "./component/List";
 import SampleForm from "./component/SampleForm";
 import CompFocus from "./component/CompFocus";
+import UserList from "./component/UserList";
+import HOC from "./component/HOC";
+
+const UserData = [
+  {
+    id: 1,
+    name: "Aashutosh",
+  },
+  {
+    id: 2,
+    name: "Uttam",
+  },
+  {
+    id: 3,
+    name: "Divyesh",
+  },
+  {
+    id: 4,
+    name: "Chatur",
+  },
+];
+
+const Users = HOC(UserList, { users: UserData });
 
 class App extends Component {
-  constructor() {
-    super();
-  }
-
   render() {
     return (
       <div className="App">
         <div className="App-header">
-          <CompFocus />
+          {/* <CompFocus /> */}
+          <h1> List of Users</h1>
+          <Users />
         </div>
       </div>
     );
