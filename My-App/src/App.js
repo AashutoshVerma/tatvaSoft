@@ -14,15 +14,14 @@ import HOC from "./component/HOC";
 import RenderPropsComponent from "./component/RenderPropsComponent";
 import { UserProvider } from "./component/UserContext";
 import CompA from "./component/CompA";
+import User from "./component/User";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div className="App-header">
-          <UserProvider value="Aashutosh">
-            <CompA />
-          </UserProvider>
+          <User />
         </div>
       </div>
     );
