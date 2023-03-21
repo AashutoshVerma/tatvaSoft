@@ -15,13 +15,15 @@ import RenderPropsComponent from "./component/RenderPropsComponent";
 import { UserProvider } from "./component/UserContext";
 import CompA from "./component/CompA";
 import User from "./component/User";
+import Post from "./component/Post";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div className="App-header">
-          <User />
+          {/* <User /> */}
+          <Post />
         </div>
       </div>
     );

@@ -6,7 +6,7 @@ export class CompC extends Component {
     return (
       <UserConsumer>
         {(username) => {
-          return <h2> Hello from {username}</h2>;
+          return <h2x> Hello from {username}</h2x>;
         }}
       </UserConsumer>
     );

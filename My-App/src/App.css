@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+.form {
+  display: flex;
+  flex-direction: row;
+}
+
+.loginContainer {
+  border: 2px solid cyan;
+  border-radius: 15px;
+  padding: 1rem 2rem;
+  box-shadow: cyan 0px 5px 15px;
+}
+
+.loginContainer form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loginContainer form input {
+  text-align: center;
+  padding: 0.5rem;
+  margin: 10px;
+  font-size: 40px;
+  border-radius: 9px;
+  border: 2px solid cyan;
+  background-color: #282c34;
+  color: cyan;
+}
+
+.loginContainer form button {
+  width: 300px;
+  font-size: 40px;
+  border-radius: 15px;
+  background-color: #282c34;
+  border: 2px ridge cyan;
+  margin-top: 25px;
+  color: cyan;
+}
