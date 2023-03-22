@@ -5,7 +5,7 @@ This is the Ecommerce Website project made with coordination with TatvaSoft Indu
 The purpose of this project is to develop a functional ecommerce website that allows users to browse and purchase products online. The website is developed using HTML, CSS, JavaScript, and PHP.
 
 ## Project Status
-This repo is regularly updated and every day work is submitted in different branches. We are currently in the development phase and new features and improvements are being added frequently.
+## This repo is regularly updated and every day work is submitted in different branches. We are currently in the development phase and new features and improvements are being added frequently.
 
 ## Getting Started
 To get started with this project, you will need to clone the repository to your local machine.
