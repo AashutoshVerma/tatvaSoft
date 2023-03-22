@@ -16,6 +16,7 @@ import { UserProvider } from "./component/UserContext";
 import CompA from "./component/CompA";
 import User from "./component/User";
 import Post from "./component/Post";
+import CounterHooks from "./component/CounterHooks";
 
 class App extends Component {
   render() {
@@ -23,7 +24,8 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           {/* <User /> */}
-          <Post />
+          {/* <Post /> */}
+          <CounterHooks />
         </div>
       </div>
     );
