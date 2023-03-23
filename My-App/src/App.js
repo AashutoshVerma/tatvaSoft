@@ -17,15 +17,14 @@ import CompA from "./component/CompA";
 import User from "./component/User";
 import Post from "./component/Post";
 import CounterHooks from "./component/CounterHooks";
+import LoginForm from "./component/LoginForm";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div className="App-header">
-          {/* <User /> */}
-          {/* <Post /> */}
-          <CounterHooks />
+          <LoginForm />
         </div>
       </div>
     );
