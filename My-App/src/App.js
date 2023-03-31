@@ -19,13 +19,14 @@ import Post from "./component/Post";
 import CounterHooks from "./component/CounterHooks";
 import LoginForm from "./component/LoginForm";
 import ClickCounter from "./component/ClickCounter";
+import PostDetail from "./component/PostDetail";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div className="App-header">
-          <ClickCounter />
+          <PostDetail />
         </div>
       </div>
     );
